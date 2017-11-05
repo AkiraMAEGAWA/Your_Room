@@ -12,8 +12,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
  
     @IBOutlet weak var tableView: UITableView!
-    
     var didHouseWorksNum: Int = 0
+
+    //TODO: 家事を追加する
     let houseworks:[String] = ["食器洗い",
                           "洗濯",
                           "洗濯物干し",
